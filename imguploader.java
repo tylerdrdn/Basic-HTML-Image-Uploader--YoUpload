@@ -156,7 +156,7 @@ public class imguploader extends HttpServlet {
   		}
 	}
 
-	response.sendRedirect("/test/index");
+	response.sendRedirect("/youpload/index.htm");
 
    	}catch(Exception ex) {
        System.out.println(ex);
