@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<title>yoUpload! - An easy way to share & edit your photos</title>
+</head>
+
+<body>
+	<h1>yoUpload!</h1>
+	<h2>A canvas for your memories & dreams</h2>
+
+	<ul>
+		<li id="home"><a href="http://83.212.101.28:8080/youpload/index.htm">Home</a></li>
+		<li id="gallery"><a href="http://83.212.101.28:8080/youpload/gallery">My Gallery</a></li>
+		<li id="contact"><a href="http://83.212.101.28:8080/youpload/contact.htm">Contact Us</a></li>
+		<li id="about"><a href="http://83.212.101.28:8080/youpload/about.htm">About</a></li>
+	</ul> 
+
+<form enctype="multipart/form-data" method="post" action=/youpload/yoUpload id="Form1">
+
+<h3>Browse & Share Your Photos:</h3>
+<br/>
+<input id="UploadFileInput" type=file name="UploadFileInput" />
+<br/>
+<h3>Attach a caption to your image:</h3>
+<br/>
+<textarea type="input" style="resize:none;" id="caption" name="caption" cols=30 rows=10 value=""/></textarea>
+<br/>
+<input id= "upload" type="submit" value="Upload Photo"/>
+<br/>
+
+</form>
+</body>
+</html>
